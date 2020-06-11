@@ -1,6 +1,6 @@
 {
   "name": "@kornil92/react-fetch-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom react hook for the fetch API",
   "main": "index.js",
   "scripts": {
