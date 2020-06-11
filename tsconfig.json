@@ -15,7 +15,8 @@
     "strict": true,
     "strictFunctionTypes": false,
     "stripInternal": true,
-    "outDir": "./lib"
+    "outDir": "./lib",
+    "declaration": true
   },
   "include": [
     "**/*.d.ts",
