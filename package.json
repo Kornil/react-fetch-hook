@@ -1,5 +1,5 @@
 {
-  "name": "react-fetch-hook",
+  "name": "@kornil92/react-fetch-hook",
   "version": "1.0.0",
   "description": "A custom react hook for the fetch API",
   "main": "index.js",
@@ -7,10 +7,14 @@
     "start--basic-example": "parcel ./example/basic-javascript/index.html",
     "start--reload-example": "parcel ./example/reload-typescript/index.html",
     "build": "tsc",
-    "prepare" : "npm run build"
+    "prepare": "npm run build"
   },
   "author": "Francesco Agnoletto",
-  "keywords": ["react", "react-hooks", "fetch"],
+  "keywords": [
+    "react",
+    "react-hooks",
+    "fetch"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
@@ -34,5 +38,19 @@
   "dependencies": {
     "react-dom": "^16.13.1"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kornil/react-fetch-hook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kornil/react-fetch-hook/issues"
+  },
+  "homepage": "https://github.com/Kornil/react-fetch-hook#readme"
 }
