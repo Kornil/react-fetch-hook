@@ -14,10 +14,12 @@
     "noUnusedParameters": true,
     "strict": true,
     "strictFunctionTypes": false,
-    "stripInternal": true
+    "stripInternal": true,
+    "outDir": "./lib"
   },
   "include": [
-    "**/*.d.ts"
+    "**/*.d.ts",
+    "src/**/*.ts"
   ],
   "exclude": [
     "node_modules"

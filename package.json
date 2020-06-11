@@ -1,13 +1,16 @@
 {
-  "name": "fetch-hook",
+  "name": "react-fetch-hook",
   "version": "1.0.0",
-  "description": "",
+  "description": "A custom react hook for the fetch API",
   "main": "index.js",
   "scripts": {
     "start--basic-example": "parcel ./example/basic-javascript/index.html",
-    "start--reload-example": "parcel ./example/reload-typescript/index.html"
+    "start--reload-example": "parcel ./example/reload-typescript/index.html",
+    "build": "tsc",
+    "prepare" : "npm run build"
   },
-  "author": "",
+  "author": "Francesco Agnoletto",
+  "keywords": ["react", "react-hooks", "fetch"],
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
@@ -30,5 +33,6 @@
   },
   "dependencies": {
     "react-dom": "^16.13.1"
-  }
+  },
+  "files": ["lib/**/*"]
 }
